@@ -87,7 +87,6 @@ public class MainActivity extends AppCompatActivity {
         btnShareLink.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                (if !isAppInstalled(""))
                 //create callback
                 shareDialog.registerCallback(callbackManager, new FacebookCallback<Sharer.Result>() {
                     @Override
